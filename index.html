@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Helpa template</title>
+    <meta property="og:title" content="Helpa template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Karla;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
+
+      <div id="Börze" class="home-container">
+        <section class="home-hero">
+          <div class="home-main">
+            <div class="home-content">
+              <header data-thq="thq-navbar" class="home-navbar-interactive">
+                <div class="branding-branding branding-root-class-name1">
+                  <img
+                    alt="image"
+                    src="public/dove-200h.png"
+                    class="branding-image"
+                  />
+                  <h2 class="branding-company-name">
+                    <span>Rosta Fürjészet</span>
+                  </h2>
+                </div>
+                <div
+                  data-thq="thq-navbar-nav"
+                  data-role="Nav"
+                  class="home-desktop-menu"
+                >
+                  <div class="home-links">
+                    <a href="#furjek" class="home-link navLink">Fürjekről</a>
+                    <a href="#Börze" class="home-link01 navLink">Börze</a>
+                    <a href="#Receptek" class="navLink">Receptek</a>
+                    <a href="#contact" class="home-link03 navLink">
+                      <span>Elérh</span>
+                      <span>etőség</span>
+                    </a>
+                  </div>
+                </div>
+                <div data-thq="thq-burger-menu" class="home-burger-menu">
+                  <button class="button">
+                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                      <path
+                        d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+                  <div
+                    data-thq="thq-mobile-menu-nav"
+                    data-role="Nav"
+                    class="home-nav"
+                  >
+                    <div class="home-container1">
+                      <div class="branding-branding branding-root-class-name">
+                        <img
+                          alt="image"
+                          src="public/dove-200h.png"
+                          class="branding-image"
+                        />
+                        <h2 class="branding-company-name">
+                          <span>Rosta Fürjészet</span>
+                        </h2>
+                      </div>
+                      <div data-thq="thq-close-menu" class="home-menu-close">
+                        <svg viewBox="0 0 1024 1024" class="home-icon02">
+                          <path
+                            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="home-links1">
+                      <a href="index.html" class="home-link04 navLink">
+                        Mission
+                      </a>
+                      <a href="index.html" class="home-link05 navLink">
+                        Take Action
+                      </a>
+                      <a href="index.html" class="home-link06 navLink">News</a>
+                      <a href="index.html" class="home-link07 navLink">
+                        Contact
+                      </a>
+                    </div>
+                    <div class="home-icon-group">
+                      <svg
+                        viewBox="0 0 950.8571428571428 1024"
+                        class="home-icon04"
+                      >
+                        <path
+                          d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                        ></path></svg
+                      ><svg
+                        viewBox="0 0 877.7142857142857 1024"
+                        class="home-icon06"
+                      >
+                        <path
+                          d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                        ></path></svg
+                      ><svg
+                        viewBox="0 0 602.2582857142856 1024"
+                        class="home-icon08"
+                      >
+                        <path
+                          d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </header>
+              <div class="home-hero-section">
+                <div class="home-header">
+                  <h1 class="home-heading">Fürjek és fürjtojások</h1>
+                  <p class="home-caption">Természetes egészség háztól házig.</p>
+                </div>
+                <div class="home-buttons">
+                  <a
+                    href="mailto:rosta.furjeszet@gmail.com?subject=asd"
+                    class="home-link08 button"
+                  >
+                    <span>Rendelés</span>
+                  </a>
+                  <a href="#contact" class="home-link09 button">
+                    <span>Elérhetőség</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="home-image">
+              <img
+                alt="image"
+                src="public/quail-gca433bf14_1920-800h.jpg"
+                class="home-image01"
+              />
+            </div>
+          </div>
+          <div class="home-details-container">
+            <div class="home-details">
+              <div class="home-container2">
+                <div class="home-category">
+                  <img
+                    alt="image"
+                    src="public/details-1.svg"
+                    class="home-image02"
+                  />
+                  <svg viewBox="0 0 1024 1024" class="home-icon10">
+                    <path
+                      d="M512 0c-282.77 0-512 229.23-512 512s229.23 512 512 512 512-229.23 512-512-229.23-512-512-512zM512 960.002c-62.958 0-122.872-13.012-177.23-36.452l233.148-262.29c5.206-5.858 8.082-13.422 8.082-21.26v-96c0-17.674-14.326-32-32-32-112.99 0-232.204-117.462-233.374-118.626-6-6.002-14.14-9.374-22.626-9.374h-128c-17.672 0-32 14.328-32 32v192c0 12.122 6.848 23.202 17.69 28.622l110.31 55.156v187.886c-116.052-80.956-192-215.432-192-367.664 0-68.714 15.49-133.806 43.138-192h116.862c8.488 0 16.626-3.372 22.628-9.372l128-128c6-6.002 9.372-14.14 9.372-22.628v-77.412c40.562-12.074 83.518-18.588 128-18.588 70.406 0 137.004 16.26 196.282 45.2-4.144 3.502-8.176 7.164-12.046 11.036-36.266 36.264-56.236 84.478-56.236 135.764s19.97 99.5 56.236 135.764c36.434 36.432 85.218 56.264 135.634 56.26 3.166 0 6.342-0.080 9.518-0.236 13.814 51.802 38.752 186.656-8.404 372.334-0.444 1.744-0.696 3.488-0.842 5.224-81.324 83.080-194.7 134.656-320.142 134.656z"
+                    ></path>
+                  </svg>
+                  <p class="home-text004">
+                    <span class="home-text005">Rendelj online</span>
+                    <span class="home-text006">&nbsp;</span>
+                    <br class="home-text007" />
+                    <span class="home-text008">Jófogáson keresztül</span>
+                    <span class="home-text009">&nbsp;</span>
+                  </p>
+                </div>
+              </div>
+              <div class="home-category1">
+                <svg viewBox="0 0 1024 1024" class="home-icon12">
+                  <path
+                    d="M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z"
+                  ></path>
+                </svg>
+                <span class="home-text010">
+                  <span class="home-text011">Keress fel minket</span>
+                  <br class="home-text012" />
+                  <span class="home-text013"></span>
+                  <span class="home-text014">
+                    és rendelj telefonon-emailen keresztül
+                  </span>
+                </span>
+              </div>
+              <div class="home-category2">
+                <svg viewBox="0 0 1170.2857142857142 1024" class="home-icon14">
+                  <path
+                    d="M1097.143 438.857c40.571 0 73.143 32.571 73.143 73.143s-32.571 73.143-73.143 73.143h-8.571l-65.714 378.286c-6.286 34.857-36.571 60.571-72 60.571h-731.429c-35.429 0-65.714-25.714-72-60.571l-65.714-378.286h-8.571c-40.571 0-73.143-32.571-73.143-73.143s32.571-73.143 73.143-73.143h1024zM277.143 896c20-1.714 35.429-19.429 33.714-39.429l-18.286-237.714c-1.714-20-19.429-35.429-39.429-33.714s-35.429 19.429-33.714 39.429l18.286 237.714c1.714 18.857 17.714 33.714 36.571 33.714h2.857zM512 859.429v-237.714c0-20-16.571-36.571-36.571-36.571s-36.571 16.571-36.571 36.571v237.714c0 20 16.571 36.571 36.571 36.571s36.571-16.571 36.571-36.571zM731.429 859.429v-237.714c0-20-16.571-36.571-36.571-36.571s-36.571 16.571-36.571 36.571v237.714c0 20 16.571 36.571 36.571 36.571s36.571-16.571 36.571-36.571zM932.571 862.286l18.286-237.714c1.714-20-13.714-37.714-33.714-39.429s-37.714 13.714-39.429 33.714l-18.286 237.714c-1.714 20 13.714 37.714 33.714 39.429h2.857c18.857 0 34.857-14.857 36.571-33.714zM272 166.857l-53.143 235.429h-75.429l57.714-252c14.857-66.857 73.714-113.714 142.286-113.714h95.429c0-20 16.571-36.571 36.571-36.571h219.429c20 0 36.571 16.571 36.571 36.571h95.429c68.571 0 127.429 46.857 142.286 113.714l57.714 252h-75.429l-53.143-235.429c-8-33.714-37.143-57.143-71.429-57.143h-95.429c0 20-16.571 36.571-36.571 36.571h-219.429c-20 0-36.571-16.571-36.571-36.571h-95.429c-34.286 0-63.429 23.429-71.429 57.143z"
+                  ></path>
+                </svg>
+                <p class="home-text015">
+                  <span class="home-text016">Kint vagyunk a börzén</span>
+                  <span class="home-text017"></span>
+                  <span class="home-text018">Révkomáromban</span>
+                  <span></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-petitions">
+          <div class="home-images">
+            <img
+              alt="image"
+              src="public/quail-g63463da87_1280-1400w.jpg"
+              id="furjek"
+              class="home-image03"
+            />
+          </div>
+          <div class="home-content01">
+            <div class="home-main1">
+              <div class="home-header01">
+                <h2 class="home-heading01">A fürjek húsa</h2>
+                <p class="home-caption01">
+                  <span class="home-text020">
+                    A japán fürj fogyasztásának egészségügyi kockázata nulla.
+                    Ismeretlen fogalom a szalmonella, és az étel allergiás
+                    rohama vagy kialakulása.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    Íze omlósabb, mint a csirke húsa, melle nem száraz és enyhén
+                    rostos. A magasabb zsírtartalma miatt inkább szaftosabb.
+                  </span>
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div class="home-button01"></div>
+          </div>
+        </section>
+        <section class="home-steps">
+          <div class="home-content02">
+            <div class="home-information">
+              <div class="home-main2">
+                <div class="home-header02">
+                  <h2 class="home-heading02">
+                    <span class="home-text025">
+                      Milyen jótékony hatásai vannak a fürjtojásoknak?
+                    </span>
+                    <br />
+                  </h2>
+                  <p class="home-caption02">
+                    <span class="home-text027">Élettani hatása</span>
+                    <span class="home-text028">
+                      i: Az emberi szervezetre mellékhatás nélküli kiváló
+                      étrend. Ajánlható gyerekeknek, felnőtteknek, időseknek és
+                      betegeknek. A fürjtojás, amelyek képesek teljes körűen
+                      biztosítani és fenntartani a normális szintet az emberi
+                      szervezetben, ott koncentrálódik, ahol szükséges, és
+                      kipótolja azokat a hiányosságot ami az emberi szervezetből
+                      hiányzik, és a biológiai folyamathoz szükséges
+                    </span>
+                    <br />
+                    <br class="home-text030" />
+                    <span class="home-text031">Cukorbetegség</span>
+                    <span>: Jó hatással van a megfelelő inzulinszint</span>
+                    <span class="home-text033">helyreállításában.</span>
+                    <br class="home-text034" />
+                    <br class="home-text035" />
+                    <span class="home-text036">
+                      Jelentős mértékű méregtelenítő hatás, bevetés a sugárzások
+                      ellen
+                    </span>
+                    <span>
+                      : Japánban az atomtámadások túlélőinek, majd a csernobili
+                      katasztrófa túlélőinek gyógyítására.
+                    </span>
+                    <br />
+                    <br />
+                    <span class="home-text040">
+                      Az immunrendszer egyensúlyának helyreállítása
+                    </span>
+                    <span>
+                      : A szükséges vitaminok, aminosavak, ásványi anyagok,
+                      hiánya romló egészségi állapothoz és különböző betegségek
+                      kialakulásához vezet. A fürjtojás fogyasztásával nagy
+                      mennyiségű természetes vitaminok, ásványi anyagok és
+                      esszenciális aminosavak jutnak a szervezetbe.
+                    </span>
+                    <br />
+                  </p>
+                </div>
+              </div>
+              <div class="home-button02"></div>
+            </div>
+            <div class="steps-steps-list">
+              <div class="steps-list">
+                <div class="steps-section">
+                  <div class="number-number number">
+                    <span class="number-text"><span>1</span></span>
+                  </div>
+                  <span class="steps-caption">
+                    <span>Nincs koleszterin</span>
+                  </span>
+                </div>
+                <div class="steps-divider"></div>
+                <div class="steps-section1">
+                  <div class="number-number number number-root-class-name">
+                    <span class="number-text"><span>2</span></span>
+                  </div>
+                  <span class="steps-caption1">
+                    <span>Ott koncentrálódik, ahol kell</span>
+                  </span>
+                </div>
+                <div class="steps-divider1"></div>
+                <div class="steps-section2">
+                  <div class="number-number number number-root-class-name1">
+                    <span class="number-text"><span>3</span></span>
+                  </div>
+                  <span class="steps-caption2">
+                    <span>Immunrendszer egyensúly</span>
+                  </span>
+                </div>
+                <div class="steps-divider2"></div>
+                <div class="steps-section3">
+                  <div class="number-number number number-root-class-name2">
+                    <span class="number-text"><span>4</span></span>
+                  </div>
+                  <span class="steps-caption3">
+                    <span>Magas vitamin tartalom</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-mission">
+          <div class="home-content03">
+            <div class="home-main3">
+              <span class="home-title">Börze</span>
+              <div class="home-header03">
+                <h2 class="home-heading03">
+                  Minden vasárnap megtalálhatnak a Révkomáromi börzén
+                </h2>
+              </div>
+            </div>
+            <div class="home-highlights">
+              <div class="home-highlight">
+                <h3 class="home-title1">7:00-tól</h3>
+              </div>
+              <div class="home-highlight1">
+                <h3 class="home-title2">12:00-ig</h3>
+              </div>
+            </div>
+          </div>
+          <div class="home-images1">
+            <img
+              alt="image"
+              src="https://images.unsplash.com/photo-1616763357218-fbf92ce9995b?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE1fHxxdWFpbCUyMGVnZ3xlbnwwfHx8fDE2ODU4MDIxMDR8MA&amp;ixlib=rb-4.0.3&amp;h=1000"
+              class="home-image04"
+            />
+            <div class="home-row"></div>
+          </div>
+        </section>
+        <section class="home-steps1">
+          <iframe
+            src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d731.2765981988777!2d18.132070017265058!3d47.75556906809887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476bada632ba5dc1%3A0x596c8b8621b9706a!2sBurza%20Kom%C3%A1rno!5e0!3m2!1sen!2ssk!4v1685820573263!5m2!1sen!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
+            class="home-iframe"
+          ></iframe>
+        </section>
+        <section class="home-help">
+          <div class="home-help-content">
+            <div class="home-header04">
+              <h2 class="home-heading04">How can you help</h2>
+              <p class="home-caption03">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="home-switch">
+              <div id="individual" class="switch-active switch">
+                <span>Individuals</span>
+              </div>
+              <div id="company" class="switch"><span>Companies</span></div>
+            </div>
+          </div>
+          <div class="home-content04">
+            <div id="individuals-content" class="home-save">
+              <div class="home-content05">
+                <div class="home-main4">
+                  <div class="home-header05">
+                    <h2 class="home-heading05">This is the Individuals Tab</h2>
+                    <p class="home-caption04">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                  <div class="home-highlights1">
+                    <div class="home-highlight2">
+                      <h3 class="home-title3">60%</h3>
+                      <p class="home-description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      </p>
+                    </div>
+                    <div class="home-highlight3">
+                      <h3 class="home-title4">40%</h3>
+                      <p class="home-description1">
+                        Excepteur sint occaecat cupidatat non proident
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="home-button03">
+                  <button class="button"><span>Take action</span></button>
+                  <button class="button"><span>Learn more</span></button>
+                </div>
+              </div>
+              <div class="home-images2">
+                <img
+                  alt="image"
+                  src="public/help-1400w.png"
+                  class="home-image05"
+                />
+              </div>
+            </div>
+            <div id="companies-content" class="home-companies">
+              <div class="home-content06">
+                <div class="home-main5">
+                  <div class="home-header06">
+                    <h2 class="home-heading06">This is the Companies Tab</h2>
+                    <p class="home-caption05">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                  </div>
+                  <div class="home-highlights2">
+                    <div class="home-highlight4">
+                      <h3 class="home-title5">55%</h3>
+                      <p class="home-description2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      </p>
+                    </div>
+                    <div class="home-highlight5">
+                      <h3 class="home-title6">45%</h3>
+                      <p class="home-description3">
+                        Excepteur sint occaecat cupidatat non proident
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="home-button06">
+                  <button class="button"><span>Take action</span></button>
+                  <button class="button"><span>Learn more</span></button>
+                </div>
+              </div>
+              <div class="home-images3">
+                <img
+                  alt="image"
+                  src="public/help-1400w.png"
+                  class="home-image06"
+                />
+              </div>
+            </div>
+          </div>
+          <div>
+            <dangerous-html
+              html="<script>
+document.getElementById('individual').addEventListener('click', function() {
+  document.getElementById('individuals-content').style.display = 'flex';
+  document.getElementById('companies-content').style.display = 'none';
+  this.classList.add('switch-active');
+  document.getElementById('company').classList.remove('switch-active');
+});
+document.getElementById('company').addEventListener('click', function() {
+  document.getElementById('companies-content').style.display = 'flex';
+  document.getElementById('individuals-content').style.display = 'none';
+  this.classList.add('switch-active');
+  document.getElementById('individual').classList.remove('switch-active');
+});
+</script>"
+            ></dangerous-html>
+          </div>
+          <section class="home-steps2">
+            <div class="home-content07">
+              <div class="home-information1">
+                <div class="home-main6">
+                  <div class="home-header07">
+                    <h2 class="home-heading07">
+                      <span class="home-text049">
+                        Milyen jótékony hatásai vannak a fürjtojásoknak?
+                      </span>
+                      <br />
+                    </h2>
+                    <p class="home-caption06">
+                      <span class="home-text051">Élettani hatása</span>
+                      <span class="home-text052">
+                        i: Az emberi szervezetre mellékhatás nélküli kiváló
+                        étrend. Ajánlható gyerekeknek, felnőtteknek, időseknek
+                        és betegeknek. A fürjtojás, amelyek képesek teljes
+                        körűen biztosítani és fenntartani a normális szintet az
+                        emberi szervezetben, ott koncentrálódik, ahol szükséges,
+                        és kipótolja azokat a hiányosságot ami az emberi
+                        szervezetből hiányzik, és a biológiai folyamathoz
+                        szükséges
+                      </span>
+                      <br />
+                      <br class="home-text054" />
+                      <span class="home-text055">Cukorbetegség</span>
+                      <span>: Jó hatással van a megfelelő inzulinszint</span>
+                      <span class="home-text057">helyreállításában.</span>
+                      <br class="home-text058" />
+                      <br class="home-text059" />
+                      <span class="home-text060">
+                        Jelentős mértékű méregtelenítő hatás, bevetés a
+                        sugárzások ellen
+                      </span>
+                      <span>
+                        : Japánban az atomtámadások túlélőinek, majd a
+                        csernobili katasztrófa túlélőinek gyógyítására.
+                      </span>
+                      <br />
+                      <br />
+                      <span class="home-text064">
+                        Az immunrendszer egyensúlyának helyreállítása
+                      </span>
+                      <span>
+                        : A szükséges vitaminok, aminosavak, ásványi anyagok,
+                        hiánya romló egészségi állapothoz és különböző
+                        betegségek kialakulásához vezet. A fürjtojás
+                        fogyasztásával nagy mennyiségű természetes vitaminok,
+                        ásványi anyagok és esszenciális aminosavak jutnak a
+                        szervezetbe.
+                      </span>
+                      <br />
+                    </p>
+                  </div>
+                </div>
+                <div class="home-button09"></div>
+              </div>
+              <div class="steps-steps-list">
+                <div class="steps-list">
+                  <div class="steps-section">
+                    <div class="number-number number">
+                      <span class="number-text"><span>1</span></span>
+                    </div>
+                    <span class="steps-caption">
+                      <span>Nincs koleszterin</span>
+                    </span>
+                  </div>
+                  <div class="steps-divider"></div>
+                  <div class="steps-section1">
+                    <div class="number-number number number-root-class-name">
+                      <span class="number-text"><span>2</span></span>
+                    </div>
+                    <span class="steps-caption1">
+                      <span>Ott koncentrálódik, ahol kell</span>
+                    </span>
+                  </div>
+                  <div class="steps-divider1"></div>
+                  <div class="steps-section2">
+                    <div class="number-number number number-root-class-name1">
+                      <span class="number-text"><span>3</span></span>
+                    </div>
+                    <span class="steps-caption2">
+                      <span>Immunrendszer egyensúly</span>
+                    </span>
+                  </div>
+                  <div class="steps-divider2"></div>
+                  <div class="steps-section3">
+                    <div class="number-number number number-root-class-name2">
+                      <span class="number-text"><span>4</span></span>
+                    </div>
+                    <span class="steps-caption3">
+                      <span>Magas vitamin tartalom</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+        <section class="home-quote-one">
+          <div class="home-quote-content">
+            <h2 class="home-quote">„Jót s jól! Ebben áll a nagy titok”</h2>
+            <div class="home-quoted">
+              <img
+                alt="image"
+                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE1fHxwb3RyYWl0fGVufDB8fHx8MTY3MDkyNjgxNQ&amp;ixlib=rb-4.0.3&amp;w=200"
+                class="home-image07"
+              />
+              <p class="home-caption07">Michael Belfort, @helpa</p>
+            </div>
+          </div>
+        </section>
+        <section class="home-quote-two">
+          <div class="home-content08">
+            <div class="home-video">
+              <video
+                src=""
+                poster="public/video-1400w.png"
+                class="home-video1"
+              ></video>
+              <div class="home-play">
+                <div class="home-button10">
+                  <svg viewBox="0 0 808.5942857142857 1024" class="home-icon16">
+                    <path
+                      d="M790.857 529.714l-758.857 421.714c-17.714 9.714-32 1.143-32-18.857v-841.143c0-20 14.286-28.571 32-18.857l758.857 421.714c17.714 9.714 17.714 25.714 0 35.429z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="home-quote-content1">
+              <h2 class="home-quote1">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.”
+              </h2>
+              <div class="home-quoted1">
+                <p class="home-caption08">Andrew Gonzalez</p>
+                <p class="home-caption09">@ihelpyou</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-donate">
+          <div class="home-content09">
+            <div class="home-header08">
+              <span class="home-heading08">
+                Donate now and help us help animals
+              </span>
+              <span class="home-caption10">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua
+              </span>
+            </div>
+            <div class="home-amount">
+              <div class="home-row1">
+                <button class="home-button11 button">$5</button>
+                <button class="home-button12 button">$10</button>
+              </div>
+              <div class="home-row2">
+                <button class="home-button13 button">$20</button>
+                <button class="home-button14 button">$40</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section id="Receptek" class="home-donation-use">
+          <div class="home-header09">
+            <h2 class="home-heading09">
+              <span>Receptek</span>
+              <br />
+              <span>fürjtojáshoz és fürjekhez</span>
+            </h2>
+            <p class="home-caption11">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+          <div class="home-accordion">
+            <div
+              data-role="accordion-container"
+              class="home-element accordion-element"
+            >
+              <div class="home-header10">
+                <h3 class="home-text070">Reggeli fürjtojás shake</h3>
+                <div
+                  class="icon-container-icon-container icon-container-root-class-name4"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="icon-container-icon"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="icon-container-icon2"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div data-role="accordion-content" class="accordion-content">
+                <div class="home-container3">
+                  <div class="home-container4">
+                    <span>
+                      <span>
+                        Fogjunk 5 db tojást.&nbsp; Nyersen rakjuk bele a pohárba
+                        és egy villával keverjük fel, míg a fehérje és a sárgája
+                        egy elegyet nem ad. Öntsük fel egy általunk válaszott
+                        gyümölcslével (véleményem szerint narancslével) és
+                        keverjük össze.&nbsp;
+                      </span>
+                      <br />
+                      <br />
+                      <span>Készen is áll a fogyasztásra</span>
+                      <br />
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              class="accordion-element home-element1"
+            >
+              <div class="home-header11">
+                <h3 class="home-text077">Lecsó csirkemellel és fürjtojással</h3>
+                <div
+                  class="icon-container-icon-container icon-container-root-class-name5"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="icon-container-icon"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="icon-container-icon2"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div data-role="accordion-content" class="accordion-content">
+                <p class="home-text078">
+                  <span class="home-text079">
+                    A csirkemellet vékonyan felszeleteljük, megsózzuk,
+                    megborsozzuk és hagyjuk fél órát állni, hogy az ízek
+                    átjárják. Beleforgatjuk a kukoricalisztbe, majd a
+                    felforrósított étolajban pár perc alatt mindkét oldalát
+                    zsemleszínűre sütjük.
+                  </span>
+                  <br class="home-text080" />
+                  <br class="home-text081" />
+                  <span class="home-text082">
+                    Egy serpenyőben felmelegítjük a chilis étolajat, hozzáadjuk
+                    a felkockázott füstölt kolbászt és pirosra sütjük. Mehet
+                    bele a karikára vágott hagyma, majd néhány perc után a
+                    felszeletelt paprika és a paradicsom is. Ízlés szerint
+                    megsózzuk, megborsozzuk, majd lefedve, néha megkeverve addig
+                    pároljuk, hogy még roppanós maradjon a paprika és a
+                    paradicsom is.
+                  </span>
+                  <br class="home-text083" />
+                  <br class="home-text084" />
+                  <span class="home-text085">
+                    Az elősütött csirkemellcsíkokat a lecsóba tesszüik, majd
+                    egyesével beleütjük a fürjtojásokat és pároljuk pár percig,
+                    attól függően, hogy a tojást lágyabban vagy éppen
+                    keményebben szeretnénk enni.
+                  </span>
+                  <br />
+                  <br />
+                  <span>
+                    https://www.mindmegette.hu/lecso-csirkemellel-es-furjtojassal.recept/
+                  </span>
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              class="accordion-element home-element2"
+            >
+              <div class="home-header12">
+                <h3 class="home-text090">Töltött fürjek</h3>
+                <div
+                  class="icon-container-icon-container icon-container-root-class-name6"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="icon-container-icon"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="icon-container-icon2"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div data-role="accordion-content" class="accordion-content">
+                <p class="home-text091">
+                  <span class="home-text092">
+                    A megtisztított fürjeket kívül-belül bedörzsöljük sóval és
+                    borssal. A töltelékhez levágjuk a kenyérszeletek héját, a
+                    kenyérbelsőt felkockázzuk. A tejszínnel meglocsoljuk, majd
+                    félretesszük. A sonkát apróra vágjuk, majd a beáztatott
+                    kenyérhez adjuk a tojással, a szerecsendióval és a finomra
+                    vágott petrezselyemmel együtt. A masszát összedolgozzuk,
+                    majd sózzuk és borsozzuk.
+                  </span>
+                  <br class="home-text093" />
+                  <br class="home-text094" />
+                  <span class="home-text095">
+                    A madárkák hasüregét megtöltjük a masszával, majd
+                    fogpiszkálóval összetűzzük a nyílást. Ha szükséges a lábakat
+                    keresztbe fonva átkötjük cérnával. Minden fürjet 2-2 szelet
+                    baconbe tekerjük.
+                  </span>
+                  <br class="home-text096" />
+                  <br class="home-text097" />
+                  <span class="home-text098">
+                    Mindet tepsibe tesszük és rászórjuk a felkockázott vajat.
+                    200 fokos sütőben 40 percig sütjük. Főtt kukorica illik
+                    mellé.
+                  </span>
+                  <br />
+                  <br />
+                  <span>https://www.mindmegette.hu/toltott-furjek.recept/</span>
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              class="accordion-element home-element3"
+            >
+              <div class="home-header13">
+                <h3 class="home-text103">Fürj húsleves</h3>
+                <div
+                  class="icon-container-icon-container icon-container-root-class-name7"
+                >
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="icon-container-icon"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="icon-container-icon2"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div data-role="accordion-content" class="accordion-content">
+                <p class="home-text104">
+                  <span class="home-text105">
+                    A fürjeket megkopasztjuk, ugyanolyan módon készítjük elő,
+                    mint a csirkét. A lábát, fejét levágjuk, ezt nem raktam bele
+                    a levesbe. A májról levágjuk az epét, majd a szívet, zúzát,
+                    a heréket és a májat félretesszük a hűtőbe.
+                  </span>
+                  <br class="home-text106" />
+                  <br class="home-text107" />
+                  <span class="home-text108">
+                    Előkészítjük a szokásos módon a zöldségeket, megpucoljuk,
+                    felaprítjuk, ki-ki ahogy szokta.
+                  </span>
+                  <br class="home-text109" />
+                  <br class="home-text110" />
+                  <span class="home-text111">
+                    Egy nagy fazékba tesszük a két egész, alaposan megmosott
+                    fürjet, mellé minden zöldséget, és annyi vizet engedünk rá,
+                    hogy ellepje, esetleg kicsit többet. Nagy lángon, fedő alatt
+                    elkezdjük forralni. Hozzáadunk sót, borsot, petrezselymet.
+                  </span>
+                  <br class="home-text112" />
+                  <br class="home-text113" />
+                  <span class="home-text114">
+                    Amikor már a répa is megpuhult, beletesszük a félretett
+                    belsőségeket. Közben már főzhetjük is mellé a tésztát.
+                  </span>
+                  <br class="home-text115" />
+                  <br class="home-text116" />
+                  <span class="home-text117">
+                    10-15 percig még főzzük kicsit a levest, hogy a belsőségek
+                    is megpuhuljanak. Ha készen van, külön tányéron tálaljuk a
+                    fürjet, hogy mindenki vághasson belőle kedve szerint.
+                  </span>
+                  <br />
+                  <br />
+                  <span>https://www.nosalty.hu/recept/furjhusleves</span>
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div>
+              <dangerous-html
+                html="<script>
+ /*
+  Accordion - Code Embed
+  */
+  const accordionContainers = document.querySelectorAll('[data-role='accordion-container']'); // All accordion containers
+  const accordionContents = document.querySelectorAll('[data-role='accordion-content']'); // All accordion content
+  const accordionIconsClosed = document.querySelectorAll('[data-role='accordion-icon-closed']'); // All accordion closed icons
+  const accordionIconsOpen = document.querySelectorAll('[data-role='accordion-icon-open']'); // All accordion open icons
+
+  accordionContents.forEach((accordionContent) => {
+      accordionContent.style.display = 'none'; //Hides all accordion contents
+  });
+
+  accordionIconsClosed.forEach((icon) => {
+    icon.style.display = 'flex'
+  })
+
+  accordionIconsOpen.forEach((icon) => {
+    icon.style.display = 'none'
+  })
+
+  accordionContainers.forEach((accordionContainer, index) => {
+      accordionContainer.addEventListener('click', () => {
+          if (accordionContents[index].style.display === 'flex') {
+              // If the accordion is already open, close it
+              accordionContents[index].style.display = 'none';
+              accordionIconsClosed[index].style.display = 'flex';
+              accordionIconsOpen[index].style.display = 'none'
+          } else {
+              // If the accordion is closed, open it
+              accordionContents.forEach((accordionContent) => {
+                  accordionContent.style.display = 'none'; //Hides all accordion contents
+              });
+
+              accordionIconsClosed.forEach((accordionIcon) => {
+                  accordionIcon.style.display = 'flex'; // Resets all icon transforms to 0deg (default)
+              });
+
+              accordionIconsOpen.forEach((accordionIcon) => {
+                accordionIcon.style.display = 'none';
+              })
+              
+              accordionContents[index].style.display = 'flex'; // Shows accordion content
+              accordionIconsClosed[index].style.display = 'none'; // Rotates accordion icon 180deg
+              accordionIconsOpen[index].style.display = 'flex';
+          }
+      });
+  });
+</script>
+"
+              ></dangerous-html>
+            </div>
+          </div>
+        </section>
+        <section class="home-updates">
+          <div class="home-content14">
+            <div class="home-details1">
+              <div class="home-header14">
+                <h2 class="home-heading10">
+                  Get updates and action alerts from Helpa by joining our
+                  newsletter
+                </h2>
+                <p class="home-caption12">
+                  “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.”
+                </p>
+              </div>
+              <div class="home-action">
+                <div class="home-input">
+                  <input
+                    type="text"
+                    placeholder="Email address"
+                    class="home-textinput input"
+                  />
+                  <button class="button home-button15">Subscribe</button>
+                </div>
+                <div class="home-agreement">
+                  <div class="home-states">
+                    <div id="tos" class="home-checkbox"></div>
+                    <div id="tos-active" class="home-checkbox1">
+                      <svg viewBox="0 0 1024 1024" class="home-icon18">
+                        <path
+                          d="M823.168 225.835l-439.168 439.168-183.168-183.168c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331l213.333 213.333c16.683 16.683 43.691 16.683 60.331 0l469.333-469.333c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0z"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="home-caption13">
+                    <label for="tos" class="home-normal">I agree to the</label>
+                    <label for="tos" class="home-bold">
+                      Terms and Conditions
+                    </label>
+                  </div>
+                  <div>
+                    <dangerous-html
+                      html="<script>
+// Create a boolean to represent the state of the toggle
+let tosToggle = false;
+
+// Add event listeners to the divs and labels
+document.getElementById('tos').addEventListener('click', toggleTos);
+document.getElementById('tos-active').addEventListener('click', toggleTos);
+document.querySelectorAll('label[for=tos]').forEach(label => label.addEventListener('click', toggleTos));
+
+// Define the toggleTos function to hide/show the elements based on the state of the toggle
+function toggleTos() {
+  if (tosToggle) {
+    document.getElementById('tos').style.display = 'flex';
+    document.getElementById('tos-active').style.display = 'none';
+  } else {
+    document.getElementById('tos').style.display = 'none';
+    document.getElementById('tos-active').style.display = 'flex';
+  }
+  tosToggle = !tosToggle;
+}
+</script>"
+                    ></dangerous-html>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="home-slider">
+              <div class="home-slides">
+                <div class="slide-active slide">
+                  <img
+                    alt="image"
+                    src="public/slide-1-1400w.png"
+                    class="home-image08"
+                  />
+                  <span class="home-text122">
+                    WFH One year on. Here’s what we’ve learned.
+                  </span>
+                </div>
+                <div class="slide">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1670991761566-534b07539db5?ixid=Mnw5MTMyMXwwfDF8YWxsfDEzfHx8fHx8Mnx8MTY3MTAxNTg5Ng&amp;ixlib=rb-4.0.3&amp;w=1400"
+                    class="home-image09"
+                  />
+                  <span class="home-text123">
+                    <span>This is a test slide</span>
+                    <br />
+                  </span>
+                </div>
+                <div class="slide">
+                  <img
+                    alt="image"
+                    src="https://images.unsplash.com/photo-1670087670280-7a3e71a7efa6?ixid=Mnw5MTMyMXwwfDF8YWxsfDE1fHx8fHx8Mnx8MTY3MTAxNTg5Ng&amp;ixlib=rb-4.0.3&amp;w=1400"
+                    class="home-image10"
+                  />
+                  <span class="home-text126">
+                    <span>This one also!</span>
+                    <br />
+                  </span>
+                </div>
+              </div>
+              <div class="home-buttons-container">
+                <div class="home-buttons1">
+                  <button id="previous-slide" class="home-previous button">
+                    <svg viewBox="0 0 1024 1024" class="home-icon20">
+                      <path d="M32 512l480 480v-288h512v-384h-512v-288z"></path>
+                    </svg>
+                  </button>
+                  <button id="next-slide" class="home-next button">
+                    <svg viewBox="0 0 1024 1024" class="home-icon22">
+                      <path d="M992 512l-480-480v288h-512v384h512v288z"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer id="contact" class="home-footer">
+          <div class="home-top">
+            <div class="branding-branding">
+              <img
+                alt="image"
+                src="public/dove-200h.png"
+                class="branding-image"
+              />
+              <h2 class="branding-company-name">
+                <span>Rosta Fürjészet</span>
+              </h2>
+            </div>
+            <div class="home-links2">
+              <a href="#furjek" class="home-link10 navLink">Fürjekről</a>
+              <a href="#Börze" class="home-link11 navLink">Börze</a>
+              <a href="#Receptek" class="navLink">Receptek</a>
+              <a href="#contact" class="home-link13 navLink">
+                <span>Elérh</span>
+                <span>etőség</span>
+              </a>
+            </div>
+          </div>
+          <div class="home-middle">
+            <span class="home-text131">
+              <span class="home-text132">+36 204 637 818</span>
+              <br />
+              <span>rosta.furjeszet@gmail.com</span>
+              <br />
+            </span>
+          </div>
+          <div class="home-bottom">
+            <span class="home-copyright">© Copyright Company – 2022</span>
+          </div>
+        </footer>
+        <div>
+          <dangerous-html
+            html="<script>
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+
+function showSlide(n) {
+  slides[currentSlide].classList.remove('slide-active');
+  currentSlide = (n + slides.length) % slides.length;
+  slides[currentSlide].classList.add('slide-active');
+}
+
+const previousSlideButton = document.querySelector('#previous-slide');
+previousSlideButton.addEventListener('click', () => {
+  showSlide(currentSlide - 1);
+});
+
+const nextSlideButton = document.querySelector('#next-slide');
+nextSlideButton.addEventListener('click', () => {
+  showSlide(currentSlide + 1);
+});
+</script>"
+          ></dangerous-html>
+        </div>
+        <div>
+          <dangerous-html
+            html="<script>
+function setCookie(name, value, days) {
+  // Set the cookie with the given name, value, and expiration time (in days)
+  let expires = '';
+  if (days) {
+    let date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    expires = '; expires=' + date.toUTCString();
+  }
+  document.cookie = name + '=' + (value || '') + expires + '; path=/';
+}
+
+function getCookie(name) {
+  // Get the value of the cookie with the given name
+  let nameEQ = name + '=';
+  let ca = document.cookie.split(';');
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+
+function removeCookie(name) {
+  // Remove the cookie with the given name
+  setCookie(name, '', -1); // Set the cookie with an expiration time of -1 days
+}
+
+document.getElementById('close').addEventListener('click', function(){
+  // Get the persistence value
+  let persistence = document.getElementById('banner').getAttribute('data-persistence');
+  if (persistence === 'true') {
+    // If persistence is enabled, set a cookie to remember that the banner is closed
+    setCookie('bannerClosed', 'true', 1); // Set the cookie with an expiration time of 1 day
+  } else {
+    removeCookie('bannerClosed')
+  }
+  document.getElementById('banner').style.display = 'none'; // Hide the banner
+});
+
+window.addEventListener('load', function() {
+  // Check if the banner should be displayed or not
+  let bannerClosed = getCookie('bannerClosed');
+  if (bannerClosed === 'true') {
+    // If the bannerClosed cookie is set, hide the banner
+    document.getElementById('banner').style.display = 'none';
+  }
+});
+</script>"
+          ></dangerous-html>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
